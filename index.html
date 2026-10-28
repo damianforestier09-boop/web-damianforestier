@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Damián Forestier | Diseñador gráfico</title>
+  <meta name="description" content="Portfolio de Damián Forestier, diseñador gráfico egresado de la Escuela DaVinci. Branding, diseño editorial, packaging, motion graphics y 3D.">
+  <meta name="theme-color" content="#03030c">
+
+  <!-- Vista previa al compartir el link (WhatsApp, redes, etc.) -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_AR">
+  <meta property="og:title" content="Damián Forestier | Diseñador gráfico">
+  <meta property="og:description" content="Portfolio de Damián Forestier, diseñador gráfico egresado de la Escuela DaVinci.">
+
+  <link rel="icon" type="image/png" href="img/favicon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+
+  <!-- Marca que JavaScript está activo (el desplegable de redes solo se oculta si funciona) -->
+  <script>document.documentElement.classList.add('js');</script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <!-- ENCABEZADO -->
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Damián Forestier, inicio">
+      <img class="brand__mark" src="img/logo-iniciales.png" alt="" width="221" height="135">
+      <span class="brand__name">Damián<br>Forestier</span>
+    </a>
+
+    <nav class="site-nav" aria-label="Principal">
+      <a class="pill" href="docs/cv-damian-forestier.pdf" target="_blank" rel="noopener" data-cv aria-haspopup="dialog">CV</a>
+      <a class="pill" href="https://www.behance.net/gallery/254817693/PORTFOLIO-2026-Diseno-Grafico" target="_blank" rel="noopener">Portfolio<span class="sr-only"> (se abre en una pestaña nueva)</span></a>
+      <a class="pill" href="#btn-contacto" data-contacto>Contacto</a>
+    </nav>
+  </header>
+
+  <main id="contenido">
+    <!-- PRESENTACIÓN -->
+    <section class="intro">
+      <div class="intro__text">
+        <article class="block">
+          <h1>¡Hola!</h1>
+          <p>
+            Soy Damián Forestier, un diseñador gráfico egresado de la Escuela DaVinci.<br>
+            Esta es mi web, un espacio donde podés encontrar un poco de información acerca de mí y mi trabajo.
+          </p>
+        </article>
+
+        <article class="block">
+          <h2>¿Qué hago?</h2>
+          <p>
+            Distintos tipos de trabajos como pueden ser Branding / Diseño de marca / Editorial / Packaging /
+            Merchandising / Redes sociales / Motion graphics / Edición de video / Diseño 3D
+          </p>
+        </article>
+      </div>
+
+      <figure class="intro__media slider" aria-label="Pósters diseñados por Damián Forestier">
+        <img src="img/poster_1.webp" width="940" height="1100" fetchpriority="high"
+             alt="Póster «El desgaste narra»: unas zapatillas de lona dibujadas en azul sobre fondo claro, con el logo de Puro Diseño.">
+        <img src="img/poster_2.webp" width="940" height="1100" loading="lazy"
+             alt="Póster «Las ideas no florecen solas»: un florero de vidrio con flores dibujadas, en tonos azules.">
+        <img src="img/poster_3.webp" width="940" height="1100" loading="lazy"
+             alt="Póster «Pensar es un acto colectivo»: dos rostros superpuestos en azul con garabatos sobre las cabezas, con el logo de Puro Diseño.">
+        <img src="img/poster_4.webp" width="940" height="1100" loading="lazy"
+             alt="Póster «Donde ven estrés, vemos posibilidades»: dos sillas de oficina unidas por una misma base, en tonos azules. Marca Reality.">
+        <img src="img/poster_5.webp" width="940" height="1100" loading="lazy"
+             alt="Póster «Cambia lo establecido»: tipografía grande en blanco sobre fondo azul, con flechas hacia arriba. Marca Reality.">
+        <img src="img/poster_6.webp" width="940" height="1100" loading="lazy"
+             alt="Póster «Siempre se puede decir algo más»: bloques de tipografía en azul y formas geométricas. Marca Reality.">
+      </figure>
+    </section>
+
+    <!-- MÁS INFORMACIÓN -->
+    <section class="more" aria-labelledby="more-title">
+      <h2 id="more-title">Más información</h2>
+      <ul class="more__list">
+        <li>
+          <button class="btn" type="button" id="btn-contacto" aria-expanded="false" aria-controls="redes">Contacto</button>
+          <div class="redes" id="redes">
+            <div class="redes__inner">
+              <ul>
+                <li><a href="https://www.instagram.com/design.damian/" target="_blank" rel="noopener">Instagram<span class="sr-only"> (se abre en una pestaña nueva)</span></a></li>
+                <li><a href="https://www.behance.net/daminforestier" target="_blank" rel="noopener">Behance<span class="sr-only"> (se abre en una pestaña nueva)</span></a></li>
+                <li><a href="https://www.linkedin.com/in/dami%C3%A1n-forestier-982636278/" target="_blank" rel="noopener">LinkedIn<span class="sr-only"> (se abre en una pestaña nueva)</span></a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li><a class="btn" href="https://www.behance.net/gallery/254817693/PORTFOLIO-2026-Diseno-Grafico" target="_blank" rel="noopener">Portfolio<span class="sr-only"> (se abre en una pestaña nueva)</span></a></li>
+        <li><a class="btn" href="docs/cv-damian-forestier.pdf" target="_blank" rel="noopener" data-cv aria-haspopup="dialog">CV</a></li>
+        <!-- Pendiente: reemplazar el "#" por el link real de Piedraza -->
+        <li><a class="btn" href="https://drive.google.com/drive/folders/1MGgYQ77IDr923eLYvwQ97LJ_bB_d09FA?usp=sharing" target="_blank" rel="noopener">Pedraza</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- PIE -->
+  <footer class="site-footer">
+    <nav aria-label="Pie de página">
+      <a href="#btn-contacto" data-contacto>Contacto</a>
+      <a href="docs/cv-damian-forestier.pdf" target="_blank" rel="noopener" data-cv aria-haspopup="dialog">CV</a>
+      <a href="https://www.behance.net/gallery/254817693/PORTFOLIO-2026-Diseno-Grafico" target="_blank" rel="noopener">Portfolio<span class="sr-only"> (se abre en una pestaña nueva)</span></a>
+    </nav>
+  </footer>
+
+  <!-- Ventana flotante del CV -->
+  <dialog class="cv-modal" id="cv-modal" aria-labelledby="cv-titulo">
+    <div class="cv-modal__bar">
+      <h2 id="cv-titulo">Currículum</h2>
+      <div class="cv-modal__actions">
+        <a class="pill" href="docs/cv-damian-forestier.pdf" download>Descargar</a>
+        <button class="pill" type="button" id="cv-cerrar">Cerrar</button>
+      </div>
+    </div>
+    <iframe class="cv-modal__frame" data-src="docs/cv-damian-forestier.pdf" title="Currículum de Damián Forestier"></iframe>
+  </dialog>
+
+  <script>
+    // ----- Contacto: despliega y pliega las redes -----
+    const btnContacto = document.getElementById('btn-contacto');
+    const redes = document.getElementById('redes');
+
+    function abrirRedes(abrir) {
+      redes.classList.toggle('abierto', abrir);
+      btnContacto.setAttribute('aria-expanded', abrir);
+    }
+
+    btnContacto.addEventListener('click', () => {
+      abrirRedes(!redes.classList.contains('abierto'));
+    });
+
+    // Los links "Contacto" del menú y del pie llevan al botón y lo despliegan
+    document.querySelectorAll('[data-contacto]').forEach((link) => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        abrirRedes(true);
+        btnContacto.scrollIntoView({ block: 'center' });
+        btnContacto.focus({ preventScroll: true });
+      });
+    });
+
+    // ----- CV: ventana flotante -----
+    const modal = document.getElementById('cv-modal');
+    const frame = modal.querySelector('iframe');
+
+    // En celulares el PDF se abre en una pestaña nueva (se ve mejor así)
+    const esCelular = window.matchMedia('(max-width: 800px) and (pointer: coarse)');
+
+    document.querySelectorAll('[data-cv]').forEach((link) => {
+      link.addEventListener('click', (e) => {
+        if (esCelular.matches) return;
+        e.preventDefault();
+        if (!frame.getAttribute('src')) frame.setAttribute('src', frame.dataset.src);
+        modal.showModal();
+      });
+    });
+
+    document.getElementById('cv-cerrar').addEventListener('click', () => modal.close());
+
+    // Cerrar al hacer clic fuera de la ventana
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) modal.close();
+    });
+  </script>
+
+</body>
+</html>
